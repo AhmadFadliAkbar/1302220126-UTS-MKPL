@@ -2,7 +2,6 @@ package lib;
 
 public class TaxFunction {
     
-
 	/**
 	 * Fungsi untuk menghitung jumlah pajak penghasilan pegawai yang harus dibayarkan setahun.
 	 * 
@@ -14,7 +13,6 @@ public class TaxFunction {
 	 * 
 	 */
 	
-
     public static int calculateTax(int monthlyIncome, int numberOfMonthWorking, int deductible, boolean isMarried, int numberOfChildren) {
         
         int tax = 0;
